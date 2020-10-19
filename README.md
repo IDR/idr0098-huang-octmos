@@ -5,7 +5,7 @@
 ### pilot (if applicable)
 | Task | Duration | Checked |
 | :----: |:----:| :----:|
-| Images| -- | -- |
+| Images| 1d 5h | -- |
 | Thumbnails | -- | -- |
 | Annotations | -- | -- |
 
