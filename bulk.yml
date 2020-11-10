@@ -1,0 +1,11 @@
+---
+continue: "true"
+transfer: "ln_s"
+exclude: "clientpath"
+skip:
+  - checksum
+parallel_fileset: "10"
+parallel_upload: "10"
+columns:
+  - target
+  - path
