@@ -1,13 +1,4 @@
 ---
-continue: "true"
-transfer: "ln_s"
-exclude: "clientpath"
-skip:
-  - checksum
-parallel_fileset: "10"
-parallel_upload: "10"
+include: "../bulk.yml"
 path: "idr0098-experimentA-filePaths.tsv"
-columns:
-  - target
-  - path
 
