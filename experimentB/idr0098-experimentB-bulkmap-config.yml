@@ -1,0 +1,50 @@
+---
+name: idr0098-huang-octmos/experimentB
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Characteristics [Strain]
+    clientname: Strain
+    include: yes
+
+  - name: Characteristics [Sex]
+    clientname: Sex
+    include: yes
+
+  - name: Characteristics [Organism Part 1]
+    clientname: Organism Part 1
+    include: yes
+
+  - name: Characteristics [Organism Part 2]
+    clientname: Organism Part 2
+    include: yes
+
+  - name: Experimental Condition [Mouse ID]
+    clientname: Mouse ID
+    include: yes
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+      - name: Characteristics [Organism]
+        clientname: Organism
+        include: yes
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
