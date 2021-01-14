@@ -53,8 +53,8 @@ columns:
   ######################################################################
 
   - group:
-    namespace: openmicroscopy.org/mapr/organism
-    columns:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
       - name: Characteristics [Organism]
         clientname: Organism
         include: yes
