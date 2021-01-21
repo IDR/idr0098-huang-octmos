@@ -43,7 +43,15 @@ columns:
     clientname: Label
     include: yes
 
-  - name: Experimental Condition [treated]
+  - name: Experimental Condition [Acquisition Date]
+    clientname: Acquisition Date
+    include: yes
+
+  - name: Experimental Condition [Acquisition Time]
+    clientname: Acquisition Time
+    include: yes
+
+  - name: Experimental Condition [Treated]
     clientname: Treatment
     include: yes
 

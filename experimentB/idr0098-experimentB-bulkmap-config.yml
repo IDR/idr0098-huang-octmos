@@ -31,6 +31,14 @@ columns:
     clientname: Mouse ID
     include: yes
 
+  - name: Experimental Condition [Acquisition Date]
+    clientname: Acquisition Date
+    include: yes
+
+  - name: Experimental Condition [Acquisition Time]
+    clientname: Acquisition Time
+    include: yes
+
   ######################################################################
   # mapr groups
   ######################################################################
