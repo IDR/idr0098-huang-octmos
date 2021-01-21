@@ -1,0 +1,11 @@
+---
+channels:
+    1:
+        active: true
+        color: '808080'
+        end: 75.0
+        label: '0'
+        start: 0.0
+greyscale: true
+version: 2
+
