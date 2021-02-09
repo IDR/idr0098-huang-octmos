@@ -1,0 +1,156 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.				
+# STUDY DESCRIPTION SECTION									
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details			
+
+														
+Comment[IDR Study Accession]	idr0098																				
+Study Title	OCT-MoS, a dataset of mouse skin squamous cell carcinoma stages by full-field optical coherence tomography																				
+Study Type	histology																				
+Study Type Term Source REF																					
+Study Type Term Accession																		
+Study Description	The incidence of cutaneous squamous cell carcinoma (SCC) has increased in recent years, while it remains as an understudied subject. Current methods for the diagnose of skin cancer are either invasive, present a low resolution, or images that are difficult to interpret. Full-field optical coherence tomography (FF-OCT) has proven its potential as a non-invasive imaging technique of epithelial tissue. The sub-micrometer resolution offered by FF-OCT is able to show fine features such as cell nuclei, blood vessels, and fibrous structures in the dermis. However, not many physicians are familiar with the images derived from this technique. Using a well-known mouse model of SCC, we acquired volumetric data from skin samples at different stages of the disease using our home-made FF-OCT system. We present OCT-Mouse Skin (OCT-MoS) dataset, a curated dataset of 3400 annotated tomograms distributed into four classes, representing different stages in the development of SCC: normal, dysplasia, papilloma, and SCC. This dataset has a high potential for reuse in areas such as cancer research, medical training, image processing, and deep learning.	
+				
+Study Key Words	optical coherence tomography	squamous cell carcinoma															
+Study Organism	Mus musculus																				
+Study Organism Term Source REF	NCBITaxon	
+							
+Study Organism Term Accession	10090																				
+Study Experiments Number	2																				
+Study External URL				
+
+Study BioImage Archive Accession																	
+Study Public Release Date	2021-02-11		
+
+																					
+# Study Publication																			
+Study PubMed ID																			
+Study Publication Title	OCT-MoS, a dataset of mouse skin squamous cell carcinoma stages by full-field optical coherence tomography																		
+Study Author List	Calderon-Delgado M, Lin MY, Tjiu JW, Huang SL															
+Study PMC ID																			
+Study DOI					
+																																	
+# Study Contacts																			
+Study Person Last Name	Calderon-Delgado	Huang																	
+Study Person First Name	Manuel	Sheng-Lung																	
+Study Person Email	manuel.caldelgado@gmail.com	shuang@ntu.edu.tw																	
+Study Person Address	Graduate Institute of Photonics and Optoelectronics, National Taiwan University, Taipei, 10617, Taiwan	Graduate Institute of Photonics and Optoelectronics, National Taiwan University, Taipei, 10617, Taiwan																	
+Study Person ORCID	0000-0002-4864-1670	0000-0001-6244-1555																	
+Study Person Roles	submitter, study lead	principal investigator			
+																																	
+# Study License and Data DOI																			
+Study License	CC BY 4.0																		
+Study License URL	https://creativecommons.org/licenses/by/4.0/																	
+Study Copyright	Calderon-Delgado et al															
+Study Data Publisher	University of Dundee																	
+Study Data DOI																																														
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																
+																																	
+# EXPERIMENT SECTION					
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment																							
+Experiment Number	1																																
+Comment[IDR Experiment Name]	idr0098-huang-octmos/experimentA	
+
+
+Experiment Sample Type	tissue																															
+Experiment Description	Abdominal skin from FVB/N mice was untreated to serve as control samples for the normal class. Back skin from FVB/N mice was treated with immunosupresant and tumor promoter solutions to study different stages of cutaneous squamous cell carcinoma. All samples were excised and imaged by full-field optical coherence tomography.																																
+Experiment Size	5D Images: 3400 	Average Image Dimension (XYZCT): 648 x 488 x ?? x 1 x 1	Total Tb: 2.0TB	# fill in any values you know																													
+Experiment Example Images																																
+Experiment Imaging Method	OCT																																
+Experiment Imaging Method Term Source REF	Fbbi																																
+Experiment Imaging Method Term Accession	FBbi_00000371																																
+Experiment Comments	The depth, Z, is different for all tomograms.  																														
+																																	
+# assay files																																	
+Experiment Assay File	idr0000-experimentA-assays.txt																																
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions	The skin of abdomen was not subject to stress conditions. The skin of back was treated with an immunosupressant solution (100ug of Dimethylbenz[a]anthracene (DMBA) dissolved into 0.2mL of acetone) at the beginning of the experiment and a tumor promoter (25mg of 12-OTetradecanoylphorbol-13-acetate (TPA) in 100mL of ethanol) was applied every week.																																
+Assay Experimental Conditions Term Source REF																																
+Assay Experimental Conditions Term Accession																																
+Quality Control Description																														
+																																	
+# Protocols																																	
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description	Mice were kept in cages and fed regularly.	The abdominal skin of the mice was left untreated. The back skin of the mice were treated with an immunosupressant solution (100ug of Dimethylbenz[a]anthracene (DMBA) dissolved into 0.2mL of acetone) at the beginning of the experiment and a tumor promoter (25mg of 12-OTetradecanoylphorbol-13-acetate (TPA) in 100mL of ethanol) was applied every week	All images corresponding to normal tissue come from abdominal skin. Tissue from the back skin was classified as dysplasia if it looked inflamed, but not comming from warts. Tissue from wrats on the back skin was classified as papilloma. Tissue coming from warts bigger than 5mm on the back skin was classified as squamous cell carcinoma.																							
+																																	
+# Phenotypes																																	
+Phenotype Name																																
+Phenotype Description																																
+Phenotype Score Type																																
+Phenotype Term Source REF	CMPO																																	
+Phenotype Term Name																																	
+Phenotype Term Accession																														
+																																	
+# Feature Level Data Files (give individual file details unless there is one file per well)																																	
+Feature Level Data File Name																																	
+Feature Level Data File Format																																	
+Feature Level Data File Description																																	
+Feature Level Data Column Name																															
+Feature Level Data Column Description																																	
+																																	
+#  Processed Data Files 																																	
+Processed Data File Name																																
+Processed Data File Format	tab-delimited text																																		
+Processed Data File Description																																	
+Processed Data Column Name																																	
+Processed Data Column Type																																	
+Processed Data Column Annotation Level																																
+Processed Data Column Description																														
+Processed Data Column Link To Assay File	
+
+																																									
+														Experiment Number	2																																
+Comment[IDR Experiment Name]	idr0098-huang-octmos/experimentB	
+
+
+Experiment Sample Type	tissue																															
+Experiment Description	Microscopy images of 9 H&E stain samples from mouse skin. Each slide contains different tissue samples corresponding to four different classes: normal, dysplasia, papilloma, and scc.																																
+Experiment Size	5D Images: 6 	Average Image Dimension (XYZCT): 225400x84800x1x3x1	Total Tb: 18.9	# fill in any values you know																													
+Experiment Example Images	S005a	S282a	S008a																														
+Experiment Imaging Method	light microscopy																																
+Experiment Imaging Method Term Source REF	Fbbi																																
+Experiment Imaging Method Term Accession	FBbi_00000345																																
+Experiment Comments																																	
+																																	
+# assay files																																	
+Experiment Assay File	idr0098-experimentB-assays.txt																																
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions	The skin of abdomen was not subject to stress conditions. The skin of back was treated with an immunosupressant solution (100ug of Dimethylbenz[a]anthracene (DMBA) dissolved into 0.2mL of acetone) at the beginning of the experiment and a tumor promoter (25mg of 12-OTetradecanoylphorbol-13-acetate (TPA) in 100mL of ethanol) was applied every week.																																
+Assay Experimental Conditions Term Source REF																																	
+Assay Experimental Conditions Term Accession																																	
+Quality Control Description																														
+																																	
+# Protocols																																	
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description	Mice were kept in cages and fed regularly.	The abdominal skin of the mice was left untreated. The back skin of the mice were treated with an immunosupressant solution (100ug of Dimethylbenz[a]anthracene (DMBA) dissolved into 0.2mL of acetone) at the beginning of the experiment and a tumor promoter (25mg of 12-OTetradecanoylphorbol-13-acetate (TPA) in 100mL of ethanol) was applied every week	All images corresponding to normal tissue come from abdominal skin. Tissue from the back skin was classified as dysplasia if it looked inflamed, but not comming from warts. Tissue from wrats on the back skin was classified as papilloma. Tissue coming from warts bigger than 5mm on the back skin was classified as squamous cell carcinoma.																								
+																																	
+# Phenotypes																																	
+Phenotype Name																																	
+Phenotype Description																																	
+Phenotype Score Type																																	
+Phenotype Term Source REF	CMPO																																
+Phenotype Term Name																																	
+Phenotype Term Accession		 																												
+																																	
+# Feature Level Data Files (give individual file details unless there is one file per well)																																	
+Feature Level Data File Name																																	
+Feature Level Data File Format																																	
+Feature Level Data File Description																																	
+Feature Level Data Column Name																															
+Feature Level Data Column Description																																	
+																																	
+#  Processed Data Files 																																	
+Processed Data File Name																																	
+Processed Data File Format	tab-delimited text																																
+Processed Data File Description																																	
+Processed Data Column Name																																	
+Processed Data Column Type																																	
+Processed Data Column Annotation Level																																
+Processed Data Column Description																														
+Processed Data Column Link To Assay File		
