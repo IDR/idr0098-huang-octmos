@@ -102,7 +102,7 @@ Processed Data Column Description
 Processed Data Column Link To Assay File	
 
 																																									
-														Experiment Number	2																																
+Experiment Number	2																																
 Comment[IDR Experiment Name]	idr0098-huang-octmos/experimentB	
 
 
